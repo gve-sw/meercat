@@ -49,13 +49,13 @@ The access token for your Webex Teams bot. Create one [here](https://developer.w
 
 Dialogflow requires setup to allow API access to different projects.  
 
-See [Dialogflow Setup](###Dialogflow-Setup).
+See [Dialogflow Setup](#Dialogflow-Setup).
 
 #### `GOOGLE_APPLICATION_CREDENTIALS`
 
 The path to your Google service account authentication credientials file. See above to setup through Dialogflow.
 
-See [Dialogflow Setup](###Dialogflow-Setup).
+See [Dialogflow Setup](#Dialogflow-Setup).
 
 #### `DATABASE_URL`
 
@@ -63,7 +63,7 @@ The MYSQL URI to the database holding switch information.
 
 A local database could be: `mysql+mysqlconnector://root@127.0.0.1:3306/catalyst_meraki`
 
-See [Database Setup](##Database-Setup) for information on setting up the database.
+See [Database Setup](#Database-Setup) for information on setting up the database.
 
 ### Database Setup
 
@@ -93,7 +93,7 @@ The Dialogflow model for this bot has been trained using various training phrase
 1. **`Model`**
 2. **`Network_Module`**
 
-The fulfillment webhook also needs to be enabled to point to the `/compare` app route.
+The fulfillment webhook also needs to be enabled to point to the `/compare` app route. To assist with local testing, a local tunnel can be established using a tool such as ngrok. More information can be found [here](https://developer.webex.com/blog/webhook-delivery-issues-with-ngrok).
 
 ### Installation
 
